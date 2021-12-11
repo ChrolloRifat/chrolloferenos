@@ -64,7 +64,7 @@ function migrateSettings() {
         return;
     }
     
-    if (getCookie("userbg") == "../start-page/resources/bg.jpg") {
+    if (getCookie("userbg") == "../sp/start-page/resources/bg.jpg") {
         setCookie("userbg", "https://source.unsplash.com/collection/19065423");
     }
     if (getCookie("lastengine") == "alles") {
