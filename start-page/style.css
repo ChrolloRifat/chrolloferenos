@@ -311,6 +311,6 @@ h1 {
       filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.1));       
 }
 #frequent{
-    width: 120;
+    width: 100;
     height: auto;
 }
