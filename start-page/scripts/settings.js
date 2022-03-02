@@ -108,7 +108,7 @@ function getbg() {
 }
 
 function gettickboxesstates() {
-    var use12hrclock = (getCookie("12hrclock") || false);
+    var use12hrclock = (getCookie("12hrclock") || true);
     document.getElementById("toggle12hrclock").checked = use12hrclock;
 }
 function tileColour() {
@@ -285,7 +285,7 @@ function clearTileSettings() {
 function savesettings() {
     setCookie("userbg", document.getElementById("bgurltextbox").value);
     setCookie("12hrclock", document.getElementById("toggle12hrclock").checked);
-    window.location.href = "https://feren-os.github.io/start-page";
+    window.location.href = "https://chrollorifat.github.io/sp/start-page";
 }
 
 function selectTileImageText() {

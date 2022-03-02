@@ -29,7 +29,7 @@ function loadSP() {
 	
     // Set up first engine
 
-    current.engine = (getCookie("lastengine") || "duckduckgo");
+    current.engine = (getCookie("lastengine") || "brave");
     selectEngine(current.engine, false);
     
     // Hover events
